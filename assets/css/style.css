@@ -1,5 +1,13 @@
 /*! MOMENTANEAL STYLES */
-
+header section,
+header div,
+footer section,
+footer div{
+    width: 5rem;
+    height: 5rem;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
 
 
 
@@ -41,4 +49,30 @@ a{
 
 .bg-color_black{
     background-color: #1a1a1a;
+}
+
+
+
+
+
+/** SPECIFIC STYLE INFORMATIONS */
+
+/*todo Header Section */
+#main-header{
+    height: 5rem;
+}
+
+#main-header.flex{
+    justify-content: space-between;
+}
+
+
+
+/*todo Footer Section */
+footer{
+    height: 7rem;
+}
+
+footer.flex{
+    justify-content: space-between;
 }
