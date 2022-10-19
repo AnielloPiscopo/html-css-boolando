@@ -9,6 +9,11 @@ footer div{
     border: 1px solid black;
 }
 
+.product{
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
 
 
 
@@ -31,6 +36,10 @@ a{
 
 
 /*todo Classes */
+.container{
+    padding: 0 15rem;
+}
+
 .flex{
     display: flex;
 }
@@ -65,6 +74,22 @@ a{
 #main-header.flex{
     justify-content: space-between;
 }
+
+
+
+
+/*todo Main Section */
+main{
+    height: 105rem;
+    flex-wrap: wrap;
+}
+
+main article.product{
+    height: 25rem;
+    width: 30rem;
+}
+
+
 
 
 
