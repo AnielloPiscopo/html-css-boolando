@@ -16,6 +16,10 @@
 
 
 /*todo HTML Tags */
+body{
+    font-family: sans-serif;
+}
+
 a{
     text-decoration: none;
 }
@@ -148,6 +152,8 @@ main .product{
     width: calc((100%/3) - 2.3rem);
 }
 
+
+/* Main .product-img */
 main .product-img{
     height: 35rem;
     background-image: url('../img/1.webp');
@@ -164,6 +170,21 @@ main .heart-icon-container{
 main .heart-icon-container.p_absolute{
     top: 1rem;
     right: 0;
+}
+
+main .special-offers.p_absolute{
+    bottom: 3rem;
+    left: 0;
+}
+
+main .special-offer{
+    padding: 0.3rem 0.5rem;
+}
+
+
+/* Main .product-info */
+main .product-info{
+    height: 5rem;
 }
 
 
