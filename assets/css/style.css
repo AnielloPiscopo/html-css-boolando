@@ -116,10 +116,17 @@ main{
 }
 
 main .product{
+    display: inline-block;
     margin: 5rem 1rem 0 0;
-    width: calc((100%/3) - 1rem);
+    width: calc((100%/3) - 2rem);
 }
 
+main .product .product-img{
+    height: 35rem;
+    background-image: url('../img/1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 
