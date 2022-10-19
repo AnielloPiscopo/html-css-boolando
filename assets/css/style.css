@@ -1,18 +1,5 @@
 /*! MOMENTANEAL STYLES */
-header section,
-header div,
-footer section,
-footer div{
-    width: 5rem;
-    height: 5rem;
-    background-color: blueviolet;
-    border: 1px solid black;
-}
 
-.product{
-    background-color: aquamarine;
-    border: 1px solid black;
-}
 
 
 
@@ -33,6 +20,10 @@ a{
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
+
 
 
 /*todo Classes */
@@ -42,6 +33,11 @@ a{
 
 .flex{
     display: flex;
+}
+
+.flex-centered{
+    align-items: center;
+    justify-content: center;
 }
 
 .color_white{
@@ -70,6 +66,13 @@ a{
 
 
 
+/*todo Combinations */
+.img-container img{
+    width: 100%;
+}
+
+
+
 
 
 /** SPECIFIC STYLE INFORMATIONS */
@@ -83,14 +86,22 @@ a{
     justify-content: space-between;
 }
 
+#main-header.color_white a{
+    color: white;
+}
+
+
+/* Header age-section */
 #main-header .age-section{
     width: 12rem;
 }
 
+/* Header logo-container */
 #main-header .logo-container{
     width: 10rem;
 }
 
+/* Header icons-container */
 #main-header .icons-container{
     width: 5rem;
 }
@@ -122,10 +133,14 @@ footer.flex{
     justify-content: space-between;
 }
 
+
+/* Generic-info */
 #generic-info{
     width: 25rem;
 }
 
+
+/* Contact-info */
 #contact-info{
     width: 12rem;
 }
