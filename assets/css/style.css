@@ -176,6 +176,7 @@ main .product-img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    cursor: zoom-in;
 }
 
 #product1 .product-img{
