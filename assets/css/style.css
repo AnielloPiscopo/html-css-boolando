@@ -103,6 +103,7 @@ ul{
     left: 0;
     right: 0;
     opacity: 0.9;
+    z-index: 2;
 }
 
 #main-header.color_white a{
@@ -133,6 +134,10 @@ main{
     height: 105rem;
 }
 
+main.p_relative{
+    z-index: 1;
+}
+
 #main-header.p_fixed + main{
     margin-top: 5rem;
 }
@@ -143,12 +148,22 @@ main .product{
     width: calc((100%/3) - 2.3rem);
 }
 
-main .product .product-img{
+main .product-img{
     height: 35rem;
     background-image: url('../img/1.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+main .heart-icon-container{
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+main .heart-icon-container.p_absolute{
+    top: 1rem;
+    right: 0;
 }
 
 
@@ -161,6 +176,10 @@ footer{
 
 footer.flex{
     justify-content: space-between;
+}
+
+footer.p_relative{
+    z-index: 1;
 }
 
 
