@@ -40,6 +40,18 @@ ul{
     justify-content: center;
 }
 
+.p_fixed{
+   position: fixed;
+}
+
+.p_relative{
+    position: relative;
+}
+
+.p_absolute{
+    position: absolute;
+}
+
 .color_white{
     color: white;
 }
@@ -86,6 +98,13 @@ ul{
     justify-content: space-between;
 }
 
+#main-header.p_fixed{
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+}
+
 #main-header.color_white a{
     color: white;
 }
@@ -112,13 +131,16 @@ ul{
 /*todo Main Section */
 main{
     height: 105rem;
-    flex-wrap: wrap;
+}
+
+#main-header.p_fixed + main{
+    margin-top: 5rem;
 }
 
 main .product{
     display: inline-block;
-    margin: 5rem 1rem 0 0;
-    width: calc((100%/3) - 2rem);
+    margin: 5rem 2rem 0 0;
+    width: calc((100%/3) - 2.3rem);
 }
 
 main .product .product-img{
@@ -126,6 +148,7 @@ main .product .product-img{
     background-image: url('../img/1.webp');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
