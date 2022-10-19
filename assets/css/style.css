@@ -82,11 +82,26 @@ ul{
     background-color: #008000;
 }
 
+.icon,
+.logo-container{
+    cursor: pointer;
+}
+
 
 
 /*todo Combinations */
 .img-container img{
     width: 100%;
+}
+
+.icon:hover,
+a:hover{
+    color: #008000 !important;
+}
+
+.icon:active,
+a:active{
+    color: red !important;
 }
 
 
@@ -158,15 +173,67 @@ main .product{
 /* Main .product-img */
 main .product-img{
     height: 35rem;
-    background-image: url('../img/1.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+#product1 .product-img{
+    background-image: url('../img/1.webp');
+}
+
+#product1:hover .product-img{
+    background-image: url('../img/1b.webp');
+}
+
+#product2 .product-img{
+    background-image: url('../img/2.webp');
+}
+
+#product2:hover .product-img{
+    background-image: url('../img/2b.webp');
+}
+
+#product3 .product-img{
+    background-image: url('../img/3.webp');
+}
+
+#product3:hover .product-img{
+    background-image: url('../img/3b.webp');
+}
+
+#product4 .product-img{
+    background-image: url('../img/4.webp');
+}
+
+#product4:hover .product-img{
+    background-image: url('../img/4b.webp');
+}
+
+#product5 .product-img{
+    background-image: url('../img/5.webp');
+}
+
+#product5:hover .product-img{
+    background-image: url('../img/5b.webp');
+}
+
+#product6 .product-img{
+    background-image: url('../img/6.webp');
+}
+
+#product6:hover .product-img{
+    background-image: url('../img/6b.webp');
+}
+
 main .heart-icon-container{
     font-size: 2rem;
     padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+main .heart-icon-container:hover{
+    color: red;
 }
 
 main .heart-icon-container.p_absolute{
