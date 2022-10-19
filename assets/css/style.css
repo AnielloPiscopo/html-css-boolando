@@ -12,3 +12,33 @@
     padding: 0;
     margin: 0;
 }
+
+
+
+/*todo HTML Tags */
+a{
+    text-decoration: none;
+}
+
+
+
+/*todo Classes */
+.flex{
+    display: flex;
+}
+
+.color_white{
+    color: white;
+}
+
+.bg-color_white{
+    background-color: white;
+}
+
+.bg-color_orange{
+    background-color: #ff6900;
+}
+
+.bg-color_black{
+    background-color: #1a1a1a;
+}
