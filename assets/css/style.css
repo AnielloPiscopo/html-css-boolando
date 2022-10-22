@@ -118,6 +118,10 @@ a:active{
     color: red !important;
 }
 
+.color_white a{
+    color: white;
+}
+
 
 
 
@@ -141,10 +145,6 @@ header.p_fixed{
     right: 0;
     opacity: 0.9;
     z-index: 2;
-}
-
-header.color_white a{
-    color: white;
 }
 
 
@@ -299,15 +299,6 @@ footer.container{
     padding-top: 2rem;
 }
 
-#generic-info{
-    width: 25rem;
-    height: 100%;
-}
-
-#burocratic-info{
-    font-size: 0.7rem;
-}
-
 footer .info-container{
     margin-top: 1rem;
 }
@@ -317,8 +308,21 @@ footer .info-container .icon{
     margin-right: 0.5rem;
 }
 
+footer .icon:visited,
+footer a:visited{
+    color: orange !important;
+}
 
-/* Contact-info */
+#generic-info{
+    width: 25rem;
+    height: 100%;
+}
+
+#burocratic-info{
+    font-size: 0.7rem;
+}
+
+
 #contact-info{
     width: 12rem;
     height: 100%;
