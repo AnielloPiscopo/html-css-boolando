@@ -198,51 +198,51 @@ main .product-img{
     cursor: zoom-in;
 }
 
-#product1 .product-img{
+#relaxed-fit-tee-unisex .product-img{
     background-image: url('../img/1.webp');
 }
 
-#product1:hover .product-img{
+#relaxed-fit-tee-unisex:hover .product-img{
     background-image: url('../img/1b.webp');
 }
 
-#product2 .product-img{
+#roses-tee .product-img{
     background-image: url('../img/2.webp');
 }
 
-#product2:hover .product-img{
+#roses-tee:hover .product-img{
     background-image: url('../img/2b.webp');
 }
 
-#product3 .product-img{
+#voglia-di-colori-pastello .product-img{
     background-image: url('../img/3.webp');
 }
 
-#product3:hover .product-img{
+#voglia-di-colori-pastello:hover .product-img{
     background-image: url('../img/3b.webp');
 }
 
-#product4 .product-img{
+#tee-unisex .product-img{
     background-image: url('../img/4.webp');
 }
 
-#product4:hover .product-img{
+#tee-unisex:hover .product-img{
     background-image: url('../img/4b.webp');
 }
 
-#product5 .product-img{
+#stripe-bodice .product-img{
     background-image: url('../img/5.webp');
 }
 
-#product5:hover .product-img{
+#stripe-bodice:hover .product-img{
     background-image: url('../img/5b.webp');
 }
 
-#product6 .product-img{
+#maglione-black .product-img{
     background-image: url('../img/6.webp');
 }
 
-#product6:hover .product-img{
+#maglione-black:hover .product-img{
     background-image: url('../img/6b.webp');
 }
 
