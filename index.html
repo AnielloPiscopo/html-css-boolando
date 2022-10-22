@@ -24,12 +24,12 @@
 
     <body>
         <!--* HEADER -->
-        <header class="container color_white flex flex-centered bg-color_orange p_fixed">
+        <header class="container color_white bg-color_orange p_fixed">
             
             <!--* Navbar -->
             <nav class="flex flex-centered">
                 <!--? Age Section -->
-                <ul class="flex age-section">
+                <ul class="flex flex-centered age-section">
                     <li><a href="#">Donna</a></li>
                     <li><a href="#">Uomo</a></li>
                     <li><a href="#">Bambini</a></li>
@@ -41,7 +41,7 @@
                 </a>
 
                 <!--? Icon Section -->
-                <div class="icons-container flex">
+                <div class="icons-container flex flex-centered">
                     <i class="fa-regular fa-user icon"></i>
                     <i class="fa-regular fa-heart icon"></i>
                     <i class="fas fa-regular fa-bag-shopping icon"></i>
@@ -245,11 +245,27 @@
 
 
         <!--* FOOTER -->
-        <footer class="container color_white flex bg-color_black p_relative">
-            <section id="generic-info">
+        <footer class="container color_white flex flex-centered bg-color_black p_relative">
+            <section id="generic-info" class="info-container">
+                <h3>Boolando s.r.l</h3>
+                
+                <div id="burocratic-info">
+                    <span>Informazioni legali</span>
+                    <span>Informazioni sulla privacy</span>
+                    <span>Diritto di recesso</span>
+                </div>
             </section>
 
             <section id="contact-info">
+                <span>Trovaci anche su</span>
+
+                <div id="social-networks" class="icons-container info-container">
+                    <i class="fa-brands icon fa-square-twitter"></i>
+                    <i class="fa-brands icon fa-square-facebook"></i>
+                    <i class="fa-brands icon fa-square-instagram"></i>
+                    <i class="fa-brands icon fa-square-pinterest"></i>
+                    <i class="fa-brands icon fa-square-youtube"></i>
+                </div>
             </section>
         </footer>
     </body>
