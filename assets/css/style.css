@@ -1,6 +1,6 @@
 /** GENERIC STYLE INFORMATIONS */
 
-/*todo Universal Selector */
+/*? Universal Selector */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -9,7 +9,7 @@
 
 
 
-/*todo HTML Tags */
+/*? HTML Tags */
 body{
     font-family: sans-serif;
 }
@@ -24,7 +24,7 @@ ul{
 
 
 
-/*todo Classes */
+/*? Classes */
 
 /* Container */
 .container{
@@ -99,7 +99,7 @@ ul{
 
 
 
-/*todo Combinations */
+/*? Combinations */
 .img-container img{
     width: 100%;
 }
@@ -120,7 +120,7 @@ a:active{
 
 /** SPECIFIC STYLE INFORMATIONS */
 
-/*todo Header Section */
+/*? Header Section */
 #main-header{
     height: 5rem;
 }
@@ -173,7 +173,7 @@ a:active{
 
 
 
-/*todo Main Section */
+/*? Main Section */
 main{
     height: 95rem;
 }
@@ -291,7 +291,7 @@ main .price .full-price{
 
 
 
-/*todo Footer Section */
+/*? Footer Section */
 footer{
     height: 7rem;
 }
