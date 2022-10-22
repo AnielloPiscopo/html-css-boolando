@@ -303,7 +303,7 @@ footer .info-container{
     margin-top: 1rem;
 }
 
-footer .info-container span,
+footer .info-container a,
 footer .info-container .icon{
     margin-right: 0.5rem;
 }
@@ -314,7 +314,7 @@ footer a:visited{
 }
 
 #generic-info{
-    width: 25rem;
+    width: 27rem;
     height: 100%;
 }
 
