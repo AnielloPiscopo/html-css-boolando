@@ -121,20 +121,20 @@ a:active{
 /** SPECIFIC STYLE INFORMATIONS */
 
 /*? Header Section */
-#main-header{
+header{
     height: 5rem;
 }
 
-#main-header nav{
+header nav{
     width: 100%;
     height: 100%;
 }
 
-#main-header nav.flex{
+header nav.flex{
     justify-content: space-between;
 }
 
-#main-header.p_fixed{
+header.p_fixed{
     top: 0;
     left: 0;
     right: 0;
@@ -142,31 +142,31 @@ a:active{
     z-index: 2;
 }
 
-#main-header.color_white a{
+header.color_white a{
     color: white;
 }
 
 
 /* Header age-section */
-#main-header .age-section{
+header .age-section{
     width: 12rem;
     font-weight: bold;
 }
 
 /* Header logo-container */
-#main-header .logo-container{
+header .logo-container{
     width: 10rem;
 }
 
 /* Header icons-container */
-#main-header .icons-container{
+header .icons-container{
     width: 5rem;
 }
 
 
 /* Other */
-#main-header .age-section.flex,
-#main-header .icons-container.flex{
+header .age-section.flex,
+header .icons-container.flex{
     justify-content: space-between;
 }
 
@@ -175,23 +175,28 @@ a:active{
 
 /*? Main Section */
 main{
-    height: 95rem;
+    min-height: 95rem;
 }
 
-#main-header.p_fixed + main{
-    margin-top: 5rem;
+main.flex{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header.p_fixed + main{
+    margin-top: 10rem;
 }
 
 main .product{
     display: inline-block;
-    margin: 5rem 2rem 0 0;
-    width: calc((100%/3) - 2.3rem);
+    margin-right: 0;
+    min-width: 300px;
 }
 
 
 /* Main .product-img */
 main .product-img{
-    height: 35rem;
+    height: 560px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
