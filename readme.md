@@ -9,7 +9,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style&logo=HTML5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-E34F26.svg?style&logo=CSS3&logoColor=red" alt="CSS3" />
+  <img src="https://img.shields.io/badge/CSS3-E34F26.svg?style&logo=CSS3&logoColor=white" alt="CSS3" />
 </p>
 <img src="https://img.shields.io/github/languages/top/AnielloPiscopo/html-css-boolando?style&color=5D6D7E" alt="GitHub top language" />
 <img src="https://img.shields.io/github/languages/code-size/AnielloPiscopo/html-css-boolando?style&color=5D6D7E" alt="GitHub code size in bytes" />
